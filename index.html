@@ -5,14 +5,28 @@
     <title>Otis Kit Pro by Creative Tim</title>
     <link rel="icon" href="images/title-icon.svg" />
 
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <!-- Include scripts for ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div>
       <div class="navbar">
-        <div class="nav">
+        <div class="nav nav-open">
           <a href="#" class="nav-brand"
             ><span class="brand-text">Otis Kit PRO</span></a
           >
@@ -36,6 +50,11 @@
                 <i class="fa-solid fa-angle-down"></i>
               </p>
             </div>
+            <div class="hidden">
+              <h5>Ehsan ul Hassan</h5>
+              <h5>Ehsan</h5>
+              <h5>Ehsan</h5>
+            </div>
             <div class="nav-mid-item">
               <p class="nav-mid-item1">
                 <svg
@@ -55,6 +74,7 @@
                 <i class="fa-solid fa-angle-down"></i>
               </p>
             </div>
+
             <div class="nav-mid-item">
               <p class="nav-mid-item1">
                 <svg
@@ -94,6 +114,10 @@
           </div>
           <div class="nav-btn">
             <a href="" class="nav-btn-content">Buy now</a>
+            <button class="btn-mobile-nav">
+              <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+              <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+            </button>
           </div>
         </div>
       </div>
@@ -110,29 +134,118 @@
         </div>
       </header>
       <div class="hero-section">
-        <div class="hero-section1">
-          <div class="section1-item">
-            <span class="count">300+</span>
-            <h3>Coded Elements</h3>
-            <p>
-              From buttons, to inputs, navbars, alerts or cards, you are covered
-            </p>
+        <section class="hero-section1-main">
+          <div class="hero-section1">
+            <div class="section1-item">
+              <h1 class="count">300+</h1>
+              <h5 class="section1-item-heading">Coded Elements</h5>
+              <p class="section1-item-para">
+                From buttons, to inputs, navbars, alerts or cards, you are
+                covered
+              </p>
+            </div>
+            <div class="section1-item">
+              <h1 class="count">100+</h1>
+              <h5 class="section1-item-heading">Design Blocks</h5>
+              <p class="section1-item-para">
+                From buttons, to inputs, navbars, alerts or cards, you are
+                covered
+              </p>
+            </div>
+            <div class="section1-item">
+              <h1 class="count">41</h1>
+              <h5 class="section1-item-heading">Pages</h5>
+              <p class="section1-item-para">
+                From buttons, to inputs, navbars, alerts or cards, you are
+                covered
+              </p>
+            </div>
           </div>
-          <div class="section1-item">
-            <span class="count">100+</span>
-            <h3>Design Blocks</h3>
-            <p>
-              From buttons, to inputs, navbars, alerts or cards, you are covered
-            </p>
+        </section>
+        <section class="hero-section2-main">
+          <div class="hero-section2">
+            <div class="hero-section2-content">
+              <div class="hero-s2-item1">
+                <h3 class="hero-s2-item1-icon-box">
+                  <span class="hero-s2-item1-icon">
+                    <i class="fa-regular fa-copy"></i>
+                  </span>
+                </h3>
+                <h3 class="hero-s2-item1-heading">
+                  Feel the <br />
+                  material kit
+                </h3>
+                <p class="hero-s2-item1-para">
+                  All the MUIcomponents that you need in a development have been
+                  re-designe with the new look.
+                </p>
+              </div>
+              <div class="hero-s2-item2">
+                <div class="hero-s2-row1">
+                  <div class="hero-s2-r1-content">
+                    <div class="hero-s2-r1-content-data">
+                      <h3 class="hero-s2-icon-box">
+                        <span class="hero-s2-icon">
+                          <i class="fa-regular fa-copy"></i>
+                        </span>
+                      </h3>
+                      <span class="hero-s2-heading">Full Documentation</span>
+                      <p class="hero-s2-para">
+                        Built by developers for developers. Check the foundation
+                        and you will find everything inside our documentation.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="hero-s2-r1-content">
+                    <div class="hero-s2-r1-content-data">
+                      <h3 class="hero-s2-icon-box">
+                        <span class="hero-s2-icon">
+                          <i class="fa-regular fa-copy"></i>
+                        </span>
+                      </h3>
+                      <span class="hero-s2-heading">MUI Ready</span>
+                      <p class="hero-s2-para">
+                        The world's most popular react components library for
+                        building user interfaces.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="hero-s2-row2">
+                  <div class="hero-s2-r2-content">
+                    <div class="hero-s2-r2-content-data">
+                      <h3 class="hero-s2-icon-box">
+                        <span class="hero-s2-icon">
+                          <i class="fa-regular fa-copy"></i>
+                        </span>
+                      </h3>
+                      <span class="hero-s2-heading">Save Time & Money</span>
+                      <p class="hero-s2-para">
+                        Creating your design from scratch with dedicated
+                        designers can be very expensive. Start with our Design
+                        System.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="hero-s2-r2-content">
+                    <div class="hero-s2-r2-content-data">
+                      <h3 class="hero-s2-icon-box">
+                        <span class="hero-s2-icon">
+                          <i class="fa-regular fa-copy"></i>
+                        </span>
+                      </h3>
+                      <span class="hero-s2-heading">Fully Responsive</span>
+                      <p class="hero-s2-para">
+                        Regardless of the screen size, the website content will
+                        naturally fit the given resolution.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="section1-item">
-            <span class="count">41</span>
-            <h3>Pages</h3>
-            <p>
-              From buttons, to inputs, navbars, alerts or cards, you are covered
-            </p>
-          </div>
-        </div>
+        </section>
       </div>
     </div>
   </body>
