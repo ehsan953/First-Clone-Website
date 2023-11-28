@@ -334,8 +334,8 @@ a:visited {
   transform-style: preserve-3d;
   transition: all 1s cubic-bezier(0.34, 1.45, 0.7, 1) 0s;
 }
-.hero-s2-item1-div4:hover .hero-s2-item1-div4-hidden {
-}
+/* .hero-s2-item1-div4:hover .hero-s2-item1-div4-hidden {
+} */
 .hero-s2-item1-div4-hidden {
   position: absolute;
   height: 100%;
@@ -657,8 +657,8 @@ a:visited {
   color: rgb(52, 71, 103);
 }
 
-.footer {
-}
+/* .footer {
+} */
 .footer-content {
   margin: 0 4rem;
   padding: 0 16px;
@@ -673,14 +673,15 @@ a:visited {
 .footer-flex-item {
   padding: 24px 0 0 24px;
   margin-bottom: 24px;
-  flex-basis: 16.6667%;
+  flex-basis: 16%;
   flex-grow: 0;
-  max-width: 16.6667%;
+  max-width: 16%;
 }
 .footer-flex-item1 {
   flex-basis: 25%;
   flex-grow: 0;
   max-width: 25%;
+  margin-left: 78px;
 }
 .footer-flex-item-title {
   margin: 0px 0px 8px;

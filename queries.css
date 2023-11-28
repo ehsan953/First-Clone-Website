@@ -24,6 +24,9 @@
     padding: 0px 0 0px 0;
     margin: 0px 0 0px 0;
   }
+  .footer-flex-item1 {
+    margin-left: 40px;
+  }
 }
 /**************************************/
 /*Below 928 px*/
