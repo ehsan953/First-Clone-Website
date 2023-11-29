@@ -119,6 +119,9 @@
   .hero-section1 {
     margin: 0 1rem;
   }
+  .footer-content {
+    margin: 0 1rem;
+  }
 }
 /**************************************/
 /*Below 736 px*/
@@ -223,6 +226,16 @@
   }
   .hero-s3-part2 {
     padding-right: 0;
+  }
+  .footer-flex-item1 {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-left: 2px;
+  }
+  .footer-flex-item {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-left: 48px;
   }
 }
 
