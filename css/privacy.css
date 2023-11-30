@@ -1,0 +1,54 @@
+.privacy-section {
+  /* padding-top: 164px; */
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+.hero-section {
+  padding: 48px 80px;
+}
+.privacy-heading {
+  margin: 48px 0px 24px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.375;
+  font-weight: 700;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(52, 71, 103);
+  letter-spacing: -0.125px;
+}
+.privacy-para {
+  margin: 0px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  opacity: 1;
+  text-transform: none;
+  vertical-align: unset;
+  text-decoration: none;
+  color: rgb(123, 128, 154);
+  letter-spacing: -0.125px;
+}
+.privacy-list {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 48px;
+  opacity: 1;
+  background: transparent;
+  color: rgb(52, 71, 103);
+  box-shadow: none;
+}
+.privacy-list-item {
+  opacity: 1;
+  background: transparent;
+  box-shadow: none;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgb(123, 128, 154);
+  letter-spacing: -0.125px;
+  font-weight: 400;
+}

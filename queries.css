@@ -27,6 +27,42 @@
   .footer-flex-item1 {
     margin-left: 40px;
   }
+  .hero-s4-heading {
+    font-size: 2rem;
+  }
+  .hero-s3-p2-flex-container {
+    margin-bottom: 0;
+  }
+  .hero-s3-p2-flex-item1 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .hero-s3-p2-flex-item2 {
+    padding-top: 0;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .hero-s6-p2-flex-item {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .hero-s7-p2-flex-item {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .hero-s7-logo {
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+  }
+  .hero-s9-p1-flex-item {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .hero-s10-flex-item {
+    flex-basis: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
 }
 /**************************************/
 /*Below 928 px*/
@@ -66,6 +102,22 @@
     padding: 24px 0;
     margin: 24px 0;
   }
+  .hero-s4-flex-item {
+    flex-basis: 100%;
+    flex-grow: 0;
+    max-width: 100%;
+  }
+  .hero-s4-flex-item1 {
+    padding: 48px 48px 12px 48px;
+    margin: 0 48px;
+  }
+  .hero-s4-flex-item2 {
+    margin: 0 48px;
+  }
+  .hero-s8-flex-item {
+    flex-basis: 70%;
+    max-width: 70%;
+  }
 }
 /**************************************/
 /*Below 880 px*/
@@ -92,6 +144,9 @@
   }
   .hero-s3-p1-content {
     max-width: 80%;
+  }
+  .hero-s5-p2-flex-item1 {
+    padding-top: 0;
   }
 }
 /**************************************/
@@ -121,6 +176,12 @@
   }
   .footer-content {
     margin: 0 1rem;
+  }
+  .hero-s6-flex-item-content {
+    max-width: 75%;
+  }
+  .hero-s7-part1 {
+    max-width: 80%;
   }
 }
 /**************************************/
@@ -237,6 +298,53 @@
     max-width: 50%;
     padding-left: 48px;
   }
+  .hero-s6-flex-item-content {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .hero-s4-flex-item2-flex-item {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-top: 0;
+  }
+  .hero-s4-flex-item {
+    margin: 0;
+  }
+  .hero-s5-p2-flex-item1 {
+    padding-top: 0;
+    text-align: left;
+  }
+  .hero-s3-p2-title {
+    font-size: 1.5rem;
+  }
+  .hero-s7-part1 {
+    max-width: 100%;
+  }
+  .hero-s7-main {
+    margin: 0;
+  }
+  .hero-s7-p1-heading1,
+  .hero-s7-p1-heading2 {
+    font-size: 1.7rem;
+  }
+  .hero-s7-p2-flex-item {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .hero-s7-p2-flex-item {
+    padding: 0;
+  }
+  .hero-s7-part2 {
+    margin-top: 2rem;
+  }
+  .hero-s7-logo {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .hero-s8-flex-item {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
 }
 
 /**************************************/
@@ -282,5 +390,86 @@
   }
   .hero-s3-p2-flex-item1 {
     margin-bottom: 1rem;
+  }
+  .hero-s6-heading {
+    font-size: 1rem;
+  }
+  .hero-s6-heading2 {
+    font-size: 2rem;
+  }
+  .hero-s6-description {
+    font-size: 1rem;
+  }
+  .hero-s4-flex-item {
+    padding: 24px 12px;
+  }
+  .hero-s4-view-btn2 {
+    padding: 0.625rem 1rem;
+    font-size: 0.65rem;
+  }
+  .hero-s4-view-btn1 {
+    font-size: 0.65rem;
+  }
+  .hero-s4-heading {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+  }
+  .hero-s3-p2-title {
+    font-size: 1rem;
+  }
+  .hero-s5-p2-flex-item1 {
+    padding-left: 12px;
+  }
+  .hero-s7-p1-heading1,
+  .hero-s7-p1-heading2 {
+    font-size: 1.4rem;
+  }
+  .hero-s7-p1-description {
+    font-size: 1rem;
+  }
+  .s8-title {
+    font-size: 1.4rem;
+  }
+  .hero-s9-p1-flex-item {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+/**************************************/
+/*Below 432 px*/
+/**************************************/
+@media (max-width: 27em) {
+  .hero-s6-heading2 {
+    font-size: 1.2rem;
+  }
+  .hero-s6-description {
+    font-size: 0.8rem;
+  }
+  .hero-s6-heading {
+    font-size: 0.8rem;
+  }
+  .hero-s6-flex-item {
+    padding: 12px;
+  }
+  .hero-s6-p2-flexbox-item {
+    padding-left: 10px;
+  }
+  .hero-s6-p2-flex-item {
+    padding: 24px 0 0 12px;
+  }
+  .hero-s6-p2-flex-item-flex-box1,
+  .hero-s6-p2-flex-item-flex-box2,
+  .hero-s6-p2-flex-item-flex-box3 {
+    padding: 28px 12px 24px;
+  }
+  .hero-s6-p2-flexbox-item-desc1,
+  .hero-s6-p2-flexbox-item-desc2,
+  .hero-s6-p2-flexbox-item-desc3 {
+    font-size: 0.8rem;
+  }
+  .hero-s6-p2-flexbox-item-title1,
+  .hero-s6-p2-flexbox-item-title2,
+  .hero-s6-p2-flexbox-item-title3 {
+    font-size: 1rem;
   }
 }
