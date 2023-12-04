@@ -1,7 +1,18 @@
 /**************************************/
+/*Below 1200 px*/
+/**************************************/
+@media (max-width: 75em) {
+  .navbar-container {
+    max-width: 992px !important;
+  }
+}
+/**************************************/
 /*Below 1088 px*/
 /**************************************/
 @media (max-width: 68em) {
+  .navbar-container {
+    max-width: 992px;
+  }
   .header-content {
     margin: 0 12rem;
   }
@@ -62,6 +73,15 @@
     flex-basis: 100%;
     max-width: 100%;
     text-align: center;
+  }
+}
+
+/**************************************/
+/*Below 992 px*/
+/**************************************/
+@media (max-width: 62em) {
+  .navbar-container {
+    max-width: 768px !important;
   }
 }
 /**************************************/
@@ -344,6 +364,15 @@
   .hero-s8-flex-item {
     flex-basis: 100%;
     max-width: 100%;
+  }
+}
+
+/**************************************/
+/*Below 576 px*/
+/**************************************/
+@media (max-width: 36em) {
+  .navbar-container {
+    padding: 0 24px;
   }
 }
 

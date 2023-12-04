@@ -1,5 +1,13 @@
+/* .privacy-section {
+  padding: 160px 0 0 96px;
+  opacity: 1;
+  background: transparent;
+  color: rgb(52, 71, 103);
+  box-shadow: none;
+} */
+
 .privacy-section {
-  /* padding-top: 164px; */
+  padding-top: 164px;
   background-color: white;
   width: 80%;
   margin: auto;
