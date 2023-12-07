@@ -170,6 +170,15 @@
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
+  .dropdown1 {
+    overflow: visible;
+    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .dropdown-flex-container {
+    /* flex-direction: column; */
+    display: flex;
+    width: 100%;
+  }
   /* .navbar-container {
     max-width: 768px !important;
   } */
