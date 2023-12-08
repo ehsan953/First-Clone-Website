@@ -99,7 +99,7 @@ a:visited {
 .dropdown2,
 .dropdown3,
 .dropdown4 {
-  position: relative;
+  /* position: relative; */
   /* padding: 16px; */
   margin-top: 16px;
   display: none;
@@ -116,6 +116,7 @@ a:visited {
   transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   transition-duration: 400ms;
 }
+
 .triangle-up-box {
   margin: 0px;
   font-family: "Roboto Slab", sans-serif;
@@ -288,6 +289,7 @@ a:visited {
 .page-sections-sub-show:hover .page-sections-sub {
   display: block;
   box-shadow: 0 0 0.1rem rgb(171, 169, 169);
+  /* position: relative; */
 }
 .dropdown-list {
   text-decoration: none;

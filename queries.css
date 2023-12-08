@@ -171,8 +171,76 @@
     display: none;
   }
   .dropdown1 {
+    min-height: 0px;
+    height: auto;
+    transition-duration: 400ms;
     overflow: visible;
     transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .dropdown1,
+  .dropdown3,
+  .dropdown4 {
+    margin: 0;
+    left: 0;
+    height: 15rem;
+    width: 100%;
+    overflow: scroll;
+    background-color: rgb(218, 218, 218);
+  }
+  .dropdown2 {
+    height: auto;
+    margin: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(218, 218, 218);
+  }
+  .triangle-up {
+    color: rgb(218, 218, 218);
+  }
+
+  .page-sections-sub-show {
+    width: 100%;
+  }
+  .dropdown2-flex-container:hover {
+    width: 50%;
+  }
+  .signin-sub,
+  .signup-sub,
+  .reset-sub {
+    left: 11.5rem;
+    padding: 2px 0;
+    /* height: 7rem;
+    overflow: scroll; */
+    position: absolute;
+    z-index: 10;
+  }
+  .page-sections-sub {
+    left: 11.5rem;
+    height: 15rem;
+    overflow: scroll;
+    position: absolute;
+    z-index: 10;
+  }
+  .dropdown1-item-box {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .dropdown-hr1,
+  .dropdown-hr2 {
+    display: none;
+  }
+  .dropdown-item {
+    padding: 0 20px;
+  }
+  .dropdown-item2-heading {
+    margin-left: 16px;
+  }
+  .dropdown-item2-list-item {
+    margin-left: 16px;
+  }
+  .triangle-up-box4 {
+    left: 1rem;
   }
   .dropdown-flex-container {
     /* flex-direction: column; */
@@ -357,6 +425,12 @@
     top: 0.5rem;
     left: 0rem;
   }
+  .dropdown-flex-container {
+    width: 95%;
+  }
+  .dropdown1 {
+    width: 26rem;
+  }
 
   .hero-section {
     padding: 1rem 3rem;
@@ -365,6 +439,10 @@
     flex-basis: 100%;
     max-width: 100%;
   }
+  /* .dropdown1-item-box {
+    flex-basis: 30%;
+    max-width: 30%;
+  } */
   .header-content-para {
     font-size: 1rem;
     line-height: 1.6rem;
@@ -493,6 +571,28 @@
     max-width: 400px;
     left: 1rem;
   }
+  .nav-mid-item2 {
+    margin-right: 10rem;
+  }
+
+  /* .page-sections-sub-show:hover {
+    width: 50%;
+  } */
+  .dropdown-flex-container {
+    width: 92%;
+  }
+  .dropdown1 {
+    width: 16rem;
+  }
+  .signin-sub,
+  .signup-sub,
+  .reset-sub {
+    left: 6.5rem;
+  }
+  .page-sections-sub {
+    left: 6.5rem;
+  }
+
   .header-content {
     /* margin: 0 1.5rem; */
   }
@@ -588,6 +688,12 @@
   .navbar {
     max-width: 300px;
     left: 1rem;
+  }
+  .hero-section1 {
+    padding: 0;
+  }
+  .hero-section1-flex-container {
+    margin: 0;
   }
   .hero-section6 {
     padding: 0 1.5rem 0 1rem;
